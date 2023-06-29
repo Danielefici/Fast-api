@@ -24,7 +24,7 @@ def main():
         response =requests.post(url,
                                 headers={"Content-Type": "application/json"},
                                 data = json.dumps({
-                                                   "Rdspend":rdSpend,
+                                                   "RdSpend":rdSpend,
                                                    "Administration":administration,
                                                    "Marketing":marketing,
                                                    })
